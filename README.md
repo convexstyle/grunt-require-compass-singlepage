@@ -1,6 +1,5 @@
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
-<<<<<<< HEAD
 HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or sites.
 
@@ -131,4 +130,3 @@ git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/grun
 <pre>
 grunt-init gruntfile
 </pre>
->>>>>>> 4e842a9f4d54b616a5c52c3b0a6fdd975409b235
