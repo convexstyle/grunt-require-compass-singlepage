@@ -4,8 +4,9 @@ grunt-require-compass-singlepage
 Grunt.js, Require.js and Compass/Sass based project workflow.
 
 ## How To Get Started
-* Read node.js documentation. [Node.js](http://nodejs.org/api/)
-* Read volo documentation. [Volo](https://github.com/volojs/volo/wiki/)
+* [Read node.js documentation.](http://nodejs.org/api/)
+* [Read volo documentation.](https://github.com/volojs/volo/wiki/)
+* [Read grunt-init documentation.](https://github.com/gruntjs/grunt-init-gruntfile)
 
 
 ### Install Node.js
@@ -45,4 +46,28 @@ volo v0.2.8
 volo create _source h5bp/html5-boilerplate
 cp -R _source/ ./
 rm -rf _source/
+</pre>
+
+### Create package.json file from npm init.
+<pre>
+npm init
+</pre>
+Follow the steps and input the required data if necessary.
+
+### Install grunt-init command
+Install grunt-init globally.
+<pre>
+npm install -g grunt-init
+</pre>
+
+Check whether grunt-init has been successfully installed or not.
+
+### Download the grunt-init-gruntfile
+<pre>
+git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile
+<pre>
+
+### Create Gruntfile.js
+<pre>
+grunt-init gruntfile
 </pre>
