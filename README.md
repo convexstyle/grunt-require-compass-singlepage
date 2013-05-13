@@ -65,7 +65,7 @@ Check whether grunt-init has been successfully installed or not.
 ### Download the grunt-init-gruntfile
 <pre>
 git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/gruntfile
-<pre>
+</pre>
 
 ### Create Gruntfile.js
 <pre>
