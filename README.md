@@ -102,7 +102,7 @@ If you install these plugins correctly, you will see some changes in package.jso
     "compass",
     "sass"
   ],
-  "author": "Hiroshi Tazawa",
+  "author": "convexstyle",
   "license": "BSD",
   <strong>"devDependencies": {
     "grunt": "~0.4.1",
@@ -112,3 +112,6 @@ If you install these plugins correctly, you will see some changes in package.jso
   }</strong>
 }
 </pre>
+
+### Edit Gruntfile.js to register grunt tasks
+
