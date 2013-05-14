@@ -70,3 +70,45 @@ git clone https://github.com/gruntjs/grunt-init-gruntfile.git ~/.grunt-init/grun
 <pre>
 grunt-init gruntfile
 </pre>
+If you successfully generate Gruntfile.js, then, you  will see it in the current directory.
+
+### Install necessary grunt plugin locally
+<pre>
+npm install grunt --save-dev
+npm install grunt-contrib-requirejs --save-dev
+npm install grunt-contrib-compass --save-dev
+npm install grunt-contrib-watch --save-dev
+</pre>
+If you install these plugins correctly, you will see some changes in package.json.
+<pre>
+{
+  "name": "grunt-require-compass-singlepage",
+  "version": "1.0.0",
+  "description": "Grunt.js, Require.js, and Compass/Sass based procedure.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/convexstyle/grunt-require-compass-singlepage.git"
+  },
+  "keywords": [
+    "grunt",
+    "require",
+    "compass",
+    "sass"
+  ],
+  "author": "Hiroshi Tazawa",
+  "license": "BSD",
+  <strong>"devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-compass": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.3"
+  }</strong>
+}
+</pre>
