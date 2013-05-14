@@ -1,11 +1,14 @@
-Grunt Require Compass/Sass Sinple Page
+## Grunt Require Compass/Sass Sinple Page
 =======
 Grunt.js, Require.js and Compass/Sass based project workflow.
 
 ## How To Get Started
-* [Read node.js documentation.](http://nodejs.org/api/)
-* [Read volo documentation.](https://github.com/volojs/volo/wiki/)
-* [Read grunt-init documentation.](https://github.com/gruntjs/grunt-init-gruntfile)
+* Read [node.js](http://nodejs.org/api/) documentation.
+* Read [volo](https://github.com/volojs/volo/wiki/) documentation.
+* Read [grunt-init](https://github.com/gruntjs/grunt-init-gruntfile) documentation.
+* Read [grunt-contrib-requirejs](https://github.com/gruntjs/grunt-contrib-requirejs) plugin.
+* Read [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass) plugin.
+* Read [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch) plugin.
 
 
 ### Install Node.js
